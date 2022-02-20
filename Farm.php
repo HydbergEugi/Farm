@@ -3,7 +3,7 @@ include "Animal.php";
 
 #Класс "Ферма"
 class Farm {
-    public $stall = array(); #стойло животных
+    private $stall = array(); #стойло животных
     private $animal_type_sheet = array(); #список типов животных на ферме
     private $product_type_sheet = array(); #список типов продукции на ферме
     private $products = array(); #полученные продукты
